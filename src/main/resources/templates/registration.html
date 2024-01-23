@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+	<form action="register" method="POST">
+		<lable>User name:</lable>
+		<input type="text" name="username" />
+		<br>
+		<lable>Email:</lable>
+		<input type="email" name="email" />
+		<br>
+		<lable>Password:</lable>
+		<input type="password" name="password" />
+		<br>
+		<lable>Gender:</lable>
+		M<input type="radio" name="gender" value="male"/>
+		F<input type="radio" name="gender" value="female"/>
+		O<input type="radio" name="gender" value="other"/>
+		<br>
+		<lable>Role:</lable>
+		Admin<input type="radio" name="role" value="Admin"/>
+		Customer<input type="radio" name="role" value="Customer"/>
+		<br>
+		<lable>Address</lable>
+		<textarea name="address"></textarea>
+		<br>
+		<input type="submit" value="Register"/>
+		
+	</form>
+
+</body>
+</html>
